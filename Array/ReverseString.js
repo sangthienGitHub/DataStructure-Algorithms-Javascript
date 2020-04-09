@@ -9,11 +9,13 @@ function reverse(str) {
   return backwards.join("");
 }
 
-const reverse2 = (str) => {
+//using built-in functions of string
+function reverse2(str) {
   if (!str || typeof str != "string" || str.length < 2) return str;
   return str.split("").reverse().join("");
-};
+}
 
+//shortcut using es6 syntax
 const reverse3 = (str) => [...str].reverse().join("");
 
 console.log(reverse("welcome to programming world!"));
