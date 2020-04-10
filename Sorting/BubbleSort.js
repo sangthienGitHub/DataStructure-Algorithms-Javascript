@@ -2,6 +2,7 @@ const numbers = [99, 44, 6, 2, 1, 5, 63, 87, 283, 4, 0];
 
 //Big O notation: 0(n^2) in time complexity -> nested loop
 //Space complexity 0(1) => not need to create any memory space
+//just used for education purpose, not efficiency, not use in real life
 function bubbleSort(array) {
   const length = array.length;
   for (let i = 0; i < length; i++) {

@@ -1,7 +1,9 @@
 const numbers = [99, 44, 6, 2, 1, 5, 63, 87, 283, 4, 0];
 
-//Big O notation: O(n log(n)) for time complexity
+//Big O notation: O(n log(n)) for time complexity worst case
 //0(n) for space complexity
+//good sorting technique for time complexity worst case scenario, but bad for space complexity
+//used for large data to avoid worst case scenario comparing to Quick Sort
 function mergeSort(array) {
   if (array.length === 1) {
     return array;

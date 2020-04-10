@@ -3,6 +3,7 @@ const numbers = [99, 44, 6, 2, 1, 5, 63, 87, 283, 4, 0];
 //Big O notation
 //Time complexity: best case scenario 0(n log(n)), worst case O(n^2) if the pivot is smallest or largest item
 //Space complexity: O(log(n))
+// one of the most popular sorting algorithm, the downside is worst case scenario O(n^2)
 function quickSort(array, left, right) {
   const len = array.length;
   let pivot;
