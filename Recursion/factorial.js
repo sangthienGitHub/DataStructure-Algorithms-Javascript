@@ -14,8 +14,8 @@ console.log("Iterative", result1);
 // implement factorial using for recursion
 // Big O notation: O(n)
 function findFactorialRecursive(number) {
-  if (number === 2) {
-    return 2;
+  if (number === 0) {
+    return 1;
   }
   return number * findFactorialRecursive(number - 1);
 }
